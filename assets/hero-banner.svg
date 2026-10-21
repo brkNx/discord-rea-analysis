@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090A0F" />
+      <stop offset="50%" stop-color="#0F111A" />
+      <stop offset="100%" stop-color="#131624" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5865F2" />
+      <stop offset="50%" stop-color="#7983F5" />
+      <stop offset="100%" stop-color="#3BA55C" />
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181B28" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#11131D" stop-opacity="0.9" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.04" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="340" rx="16" fill="url(#bg)" stroke="#262A3F" stroke-width="1.5" />
+  <rect width="1200" height="340" rx="16" fill="url(#grid)" />
+
+  <!-- Top Accent Line -->
+  <rect x="48" y="0" width="1104" height="3" fill="url(#accent)" />
+
+  <!-- Header Badge -->
+  <rect x="48" y="36" width="290" height="28" rx="14" fill="#5865F2" fill-opacity="0.15" stroke="#5865F2" stroke-opacity="0.45" stroke-width="1" />
+  <circle cx="66" cy="50" r="4" fill="#3BA55C" />
+  <text x="80" y="54" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="600" letter-spacing="0.8">REA v6.7.0 • SKILL v42 • VERIFIED</text>
+
+  <!-- Commit / Target Hash Pill -->
+  <rect x="352" y="36" width="340" height="28" rx="14" fill="#161925" stroke="#2D324A" stroke-width="1" />
+  <text x="370" y="54" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5">SHA256: a3b0cf011eb75f56...4e747561</text>
+
+  <!-- Main Title -->
+  <text x="48" y="112" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="-0.6">Discord Desktop (v1.0.9264)</text>
+  <text x="48" y="148" fill="#8B949E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="400">End-to-End Static Reverse Engineering, IPC Security Membrane &amp; Native Subsystem Audit</text>
+
+  <!-- 6 Metric Cards -->
+  <!-- Card 1 -->
+  <g transform="translate(48, 184)">
+    <rect width="172" height="112" rx="10" fill="url(#cardBg)" stroke="#262B40" stroke-width="1" />
+    <text x="16" y="30" fill="#7983F5" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600">ELECTRON HOST</text>
+    <text x="16" y="64" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700">v42.7.1</text>
+    <text x="16" y="88" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">219.7 MB PE32+ Fork</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(234, 184)">
+    <rect width="172" height="112" rx="10" fill="url(#cardBg)" stroke="#262B40" stroke-width="1" />
+    <text x="16" y="30" fill="#3BA55C" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600">ASAR BUNDLES</text>
+    <text x="16" y="64" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700">1,484 Mods</text>
+    <text x="16" y="88" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">app.asar + core.asar</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(420, 184)">
+    <rect width="172" height="112" rx="10" fill="url(#cardBg)" stroke="#262B40" stroke-width="1" />
+    <text x="16" y="30" fill="#FAA61A" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600">NATIVE MODULES</text>
+    <text x="16" y="64" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700">17 Addons</text>
+    <text x="16" y="88" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">C++ / Rust / WebRTC</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(606, 184)">
+    <rect width="172" height="112" rx="10" fill="url(#cardBg)" stroke="#262B40" stroke-width="1" />
+    <text x="16" y="30" fill="#EB459E" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600">CONTEXTBRIDGE</text>
+    <text x="16" y="64" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700">38 APIs</text>
+    <text x="16" y="88" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">44 IPC Allowlisted</text>
+  </g>
+
+  <!-- Card 5 -->
+  <g transform="translate(792, 184)">
+    <rect width="172" height="112" rx="10" fill="url(#cardBg)" stroke="#262B40" stroke-width="1" />
+    <text x="16" y="30" fill="#5865F2" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600">VOICE &amp; AI</text>
+    <text x="16" y="64" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700">Dave MLS</text>
+    <text x="16" y="88" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">5 Krisp .kef + TFLite</text>
+  </g>
+
+  <!-- Card 6 -->
+  <g transform="translate(978, 184)">
+    <rect width="174" height="112" rx="10" fill="url(#cardBg)" stroke="#262B40" stroke-width="1" />
+    <text x="16" y="30" fill="#00B0F4" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" font-weight="600">RUST TOOLCHAIN</text>
+    <text x="16" y="64" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700">73dc9167</text>
+    <text x="16" y="88" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">6 Unified Binaries</text>
+  </g>
+</svg>

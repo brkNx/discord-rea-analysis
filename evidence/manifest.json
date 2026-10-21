@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "application": "Discord Desktop",
+    "version": "1.0.9264",
+    "release_channel": "stable",
+    "electron_version": "42.7.1",
+    "sentry_release": "discord-desktop-169f6c247b6c747b6c557188146e687c2c5ba014",
+    "platform": "win32-x64",
+    "install_root": "C:\\Users\\brkN\\AppData\\Local\\Discord\\app-1.0.9264"
+  },
+  "analyzer": {
+    "engine": "rea-agents",
+    "version": "6.7.0",
+    "skill_version": "42",
+    "tools_sha256": "af39310c9591bb981893ec0d2188b1bcf6e9cc8ba3ac513d5bbefc8ddcb85639"
+  },
+  "artifacts": [
+    {
+      "path": "Discord.exe (root stub)",
+      "format": "PE32+ (x86_64)",
+      "size_bytes": 641976,
+      "sha256": "afd01f3e2bb55540f9f5871fbcc24df22e329fd7101a1798bc1905af490e5b55",
+      "rustc_commit": "73dc9167f1cd099e525c9ade2e068d1907b78564",
+      "evidence_ids": [
+        "ev_5bda2e07a993d75ec70b091ce2b5f467374ff3e7f52948bb26647720d56ed316",
+        "ev_bf8ebcb459d16df51e2cbb604836d38b98a0b6a7448d91e5e15faa0d311e94b3"
+      ]
+    },
+    {
+      "path": "Update.exe",
+      "format": "PE32 (x86) .NET Framework v4.5 (ILRepack Squirrel.Windows v1.1.1.0)",
+      "size_bytes": 1596344,
+      "sha256": "0a166a5da46cce77637fdab36b18f09dbc3b24fc839dbc451bb8a862a09fbab8",
+      "mvid": "9fab9409-1eb1-4b86-9cb9-74f40bae8a64",
+      "evidence_ids": [
+        "ev_d4c8a6436b8f9c5612ab9700c3cbc7de9282ecb01a7ea436874e921ab08ad9af",
+        "ev_b941cbdc137bd89c4dd6b89da1282e1da44c8f40fa250e92b02d1f27f49e66c2",
+        "ev_296a557bc49ff371acda24705c720a9672c22882c719a9a0007ab903e05275bc"
+      ]
+    },
+    {
+      "path": "app-1.0.9264/Discord.exe",
+      "format": "PE32+ (x86_64) Custom Electron 42.7.1 Host",
+      "size_bytes": 219700152,
+      "sha256": "a3b0cf011eb75f568963fd0942648455e125b030b4b578fec652dc0b4e747561",
+      "evidence_ids": [
+        "ev_878d604fd2d9aeb4818d6f67c66e02bdf055c42b121c4b785906660d8170c639",
+        "ev_96ff7b5fb863762aa1a1f393e5cfed84813af65023b03ad1216bdeb63a1bb754"
+      ]
+    },
+    {
+      "path": "app-1.0.9264/updater_launcher.exe",
+      "format": "PE32+ (x86_64)",
+      "size_bytes": 641976,
+      "sha256": "afd01f3e2bb55540f9f5871fbcc24df22e329fd7101a1798bc1905af490e5b55",
+      "rustc_commit": "73dc9167f1cd099e525c9ade2e068d1907b78564",
+      "evidence_ids": [
+        "ev_271abccad3d015cf9bf593be4a0a2ef25ff1e98912de9a8eb1c8e6ef364122f1",
+        "ev_22dbf508c88c6318a21ccbfda88edb2f98f5d2a32b7bbb5104a7935de92628c7"
+      ]
+    },
+    {
+      "path": "app-1.0.9264/updater.node",
+      "format": "PE32+ (x86_64) Node Addon",
+      "size_bytes": 4550072,
+      "sha256": "c25eca24e0b53f591608c12f7bcb04bc14c5f6099547fb88316567d01527a196",
+      "rustc_commit": "73dc9167f1cd099e525c9ade2e068d1907b78564",
+      "evidence_ids": [
+        "ev_051ca978d1d97c0d125d3d358790d8efc19987a07c641d4b550141c22380e130"
+      ]
+    },
+    {
+      "path": "app-1.0.9264/Microsoft.Gaming.XboxApp.XboxNetwork.winmd",
+      "format": "PE32 WinMD (WindowsRuntime 1.4)",
+      "size_bytes": 2048,
+      "sha256": "dd76201ed745fb7231dc48eb644c2b9c0dc424cdff97b0ed001777ba8a2707fb",
+      "mvid": "7e67e45f-4dab-415e-b6f6-311d1cc12f14",
+      "evidence_ids": [
+        "ev_23ab07860b9e0d2b23ecb9e1907229556259c21b84c4402cbfa0abc2045ee008",
+        "ev_c070a4db183edb207b98fb133e34d9e48ccef73f9d9c5fb0859316caeb8e2336"
+      ]
+    },
+    {
+      "path": "app-1.0.9264/resources/app.asar",
+      "format": "Electron ASAR Archive",
+      "size_bytes": 3635916,
+      "sha256": "0025c02c7241045a12464309604ec4d5b8ec7ed2ce43cce05d5dacb8f253f672",
+      "evidence_ids": [
+        "ev_406bd84efa4a93bc450cc6929a464e4a919e19cd9280740923522633c33d565d",
+        "ev_baf8e88e459a4b6244dad5238633b4103de88751d776272c97724b3de8f12a57"
+      ]
+    },
+    {
+      "path": "app-1.0.9264/modules/discord_desktop_core-1/discord_desktop_core/core.asar",
+      "format": "Electron ASAR Archive",
+      "size_bytes": 1832667,
+      "sha256": "922c22e53eceb3a62fdfa51240ebbbb55e8e75cbc03caa6b711f6193448fa48e",
+      "evidence_ids": [
+        "ev_a1cebcf9a45b93e46a93385597d537ff5a8a952df9fa9ce69069fb22bd4f5211",
+        "ev_014e81847fb0f93d9ff3ef45c21fd2bb11f71f94234ba59dcfaadfc10ee1ffb2",
+        "ev_6114a862c57c0317b7f43758925a8d631451ccba43de4788ac05f2fe3fca89c6"
+      ]
+    },
+    {
+      "path": "app-1.0.9264/modules/discord_overlay2-1/discord_overlay2",
+      "format": "Native + JS Module Tree",
+      "sha256": "a391cb775ef96695d6d798214a023737d15c3870e3f1766c2646508f48b197ac",
+      "evidence_ids": [
+        "ev_09baabba5fdf2c4eccacfb187cef46a1165885ce273d8242bb5eb61cc97afc06",
+        "ev_c3c9058f90b668fc97eb52b1f08a39a5bbda39949853c09382ec43df1d374b3a"
+      ]
+    },
+    {
+      "path": "app-1.0.9264/modules/discord_rpc-1/discord_rpc",
+      "format": "JS Module Tree",
+      "sha256": "fd2ec69747a3d41324571e942c5baf57f4583cf469b94d665fd9e2a4999bed2a",
+      "evidence_ids": [
+        "ev_e61d4dee924047b3e8551e71f654098637aef3392816d13100ccacc5951d02ca",
+        "ev_76765333018e63056881d9d5a37ee3e73e07c78ec333a8bbccca8aee911b1bbd"
+      ]
+    },
+    {
+      "path": "app-1.0.9264/modules/discord_utils-1/discord_utils",
+      "format": "Native + JS Module Tree",
+      "sha256": "5cb163fb4fb15c08f11d01228125c73b64353ae2b0c2120fb47f91a21804031c",
+      "evidence_ids": [
+        "ev_ce53d51eafbde33ecb1f5d782338b9e5c74ce5f2f7d69b213c679258a36706a1",
+        "ev_9a2a047ec19ac47fa0072bd13030c23d7fca0464d74ddbd9b4bb835ca448ff18"
+      ]
+    },
+    {
+      "path": "app-1.0.9264/modules/discord_voice-1/discord_voice",
+      "format": "Native + JS + ML Module Tree",
+      "sha256": "34533394b388193299e98db27ac81981a3399ec5fb6acc6d6c89670e317ba086",
+      "rustc_commit": "73dc9167f1cd099e525c9ade2e068d1907b78564",
+      "evidence_ids": [
+        "ev_243d9bc436d7aa8849989fc3fbfe7d813f6e33b7049fd40ce1ff5d3acea1fd22",
+        "ev_6eca844b7c0827f06edabfd44675ba07e8ed1393c4b949ffc42c78e4198bb511",
+        "ev_f7e86db7171003202ebf907977ce27d174b92d4df1ac3f6717ea3a012cc8d203"
+      ]
+    }
+  ]
+}
